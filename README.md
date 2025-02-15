@@ -59,7 +59,7 @@ To run this project, you need to install the following Python libraries:
 
 1. Clone the Repository:
 
-**git clone https://github.com/IbrahimKhalilRatul/book-recommendation-system.git**
+**git clone https://github.com/IbrahimKhalilRatul/Book_Recommendation_System.git**
 
 **cd book-recommendation-system**
 
