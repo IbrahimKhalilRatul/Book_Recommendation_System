@@ -51,6 +51,45 @@ You can download the dataset from Kaggle.
 **Installation**
 
 To run this project, you need to install the following Python libraries:
-pip install pandas numpy scikit-learn sentence-transformers
+
+**pip install pandas numpy scikit-learn sentence-transformers**
 
 
+**Usage**
+
+1. Clone the Repository:
+
+**git clone https://github.com/your-username/book-recommendation-system.git**
+
+**cd book-recommendation-system**
+
+2.Download the Dataset
+
+3. Run the Code:
+
+_Open the Jupyter Notebook or Python script._
+
+*Update the file path to the dataset in the code*
+
+***file_path = '/content/drive/MyDrive/archive (S)/books.csv'***
+
+Run the code to generate book recommendations.
+
+4. Get Recommendations:
+
+The system will prompt you to enter a book title.
+
+It will then display the top 5 recommended books based on the content of the book you entered.
+
+**Example Output**
+
+For the book **"The Great Gatsby"**, the system might recommend:
+
+1. A Life in Letters - F. Scott Fitzgerald/Matthew J. Bruccoli
+2. Cliffs Notes on Fitzgerald's the Great Gatsby - Kate Maurer/F. Scott Fitzgerald/Cliffshotes
+3. Gatsby's Girl - Caroline Preston
+4. All the Sad Young Men (Monks of F. Scott Fitzgerald) - F. Scott Fitzgerald/James L.M. West III
+5. The Love of the Last Tycoon - F. Scott Fitzgerald
+
+
+*Feel free to use your own dataset and improve it*
