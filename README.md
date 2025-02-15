@@ -9,6 +9,7 @@ The system is designed to be simple yet effective, making it a great starting po
 
 
 **Features**
+
 1.Content-Based Filtering: Recommends books based on their descriptions, titles, and authors.
 
 2.Sentence Transformers: Uses pre-trained transformer models to generate embeddings for book descriptions.
@@ -18,3 +19,38 @@ The system is designed to be simple yet effective, making it a great starting po
 4.Customizable Recommendations: Allows users to specify the number of recommendations they want.
 
 5.Easy to Use: The code is well-documented and easy to run.
+
+
+
+**Dataset**
+
+
+The project uses the Goodreads Dataset, which contains metadata about books, including:
+
+Title: The title of the book.
+
+Authors: The author(s) of the book.
+
+Description: A brief description of the book.
+
+Average Rating: The average rating of the book.
+
+ISBN: The ISBN number of the book.
+
+Language: The language of the book.
+
+Number of Pages: The number of pages in the book.
+
+Ratings Count: The number of ratings the book has received.
+
+Text Reviews Count: The number of text reviews the book has received.
+
+You can download the dataset from Kaggle.
+
+
+**Installation**
+
+To run this project, you need to install the following Python libraries:
+pip install pandas numpy scikit-learn sentence-transformers
+
+
